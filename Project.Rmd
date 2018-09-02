@@ -1,8 +1,6 @@
 ---
-title: "Passing"
+title: "Shooting Percentages vs Passing"
 author: "Ian Huff"
-date: "9/1/2018"
-output: html_document
 ---
 
 ```{r setup, include=FALSE}
@@ -36,22 +34,22 @@ The final model correctly identifies make or miss for a modest 56% of individual
 
 * The speed of the pass was one of the most powerful variables for prediction, suggesting that an extra 10 mph on a pass could increases shooting percentage by over 5%.   
 
-* Pass angle was statistically significant but not as practically so; increasing the angle to the basket by 45 degrees lowers shooting percentage by 1.2%.  
-
-* Pass speed showed a stronger relationship with made shots for three pointers than shots inside the arc. This plot shows the average speed of pass received against the shooting percentages for individual players separated into twos and threes.  
-
   ![Shooting Percentage vs Pass Speed](https://github.com/thepufferfish/test/blob/master/fg_vs_pass_speed.png?raw=true)  
 
-* You might think that the relationship comes because a faster pass leads to further defender distance. Pass speed and defender distance actually have the opposite relationship. I suspect due to passers putting more speed on the ball to fit into smaller windows.  
+* Pass speed showed a stronger relationship with made shots for three pointers than shots inside the arc. This plot shows the average speed of pass received against the shooting percentages for individual players separated by twos and threes.  
+
+* I thought that possibly faster passes lead to further defender distance which increased shooting percentages. This isn't the case, though. Faster passes are associated with closer defenders. I suspect due to passers putting more speed on the ball to fit into smaller windows.  
 
   ![Nearest Defender vs Pass Speed](https://github.com/thepufferfish/test/blob/master/ndd_vs_pass_speed.png?raw=true)  
+
+* Pass angle was statistically significant but not as practically so; increasing the angle to the basket by 45 degrees lowers shooting percentage by 1.2%.  
 
 #### Implications  
 
 For coaches, I would use this information to emphasize making crisp passes on the perimeter. Not at the expense of accuracy, of course. It also confirms the power of playing inside-out. Receiving crisp passes not far from the line to the hoop significantly increases shooting percentages.  
 
-For management, I would seek to identify sharpshooters who are receiving slow passes and could stand to see a boost to their percentages if those passes get faster. I would also seek to identify players who throw fast passes out to the perimeter.  
+For management, I would seek to identify potential shooters who are receiving significantly worse passes than they would on the Kings. I would also seek to identify players who throw better passes on average.  
 
 #### Limitations  
 
-There are many variables I couldn't account for like pass accuracy, speed of the close out, player fatigue, etc. Some values for pass speed may be off for short passes due to rounding in the game and shot clock. I would have liked to explore interactions between variables but couldn't due to the size of the data set and the number of potential variables.  
+There are many variables I couldn't account for like pass accuracy, speed of the close out, player fatigue, team scheme producing the passes etc. Some values for pass speed may be off for short passes due to rounding in the game and shot clock. I would have liked to explore interactions between variables but couldn't due to the size of the data set and the number of potential variables.  
