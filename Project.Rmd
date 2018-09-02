@@ -40,11 +40,11 @@ The final model correctly identifies make or miss for a modest 56% of individual
 
 * Pass speed showed a stronger relationship with made shots for three pointers than shots inside the arc. This plot shows the average speed of pass received against the shooting percentages for individual players separated into twos and threes.  
 
-  ![Shooting Percentage vs Pass Speed](~/school/Kings Challenge/fg_vs_pass_speed.png)  
+  ![Shooting Percentage vs Pass Speed](~/fg_vs_pass_speed.png)  
 
 * You might think that the relationship comes because a faster pass leads to further defender distance. Pass speed and defender distance actually have the opposite relationship. I suspect due to passers putting more speed on the ball to fit into smaller windows.  
 
-  ![Nearest Defender vs Pass Speed](~/school/Kings Challenge/ndd_vs_pass_speed.png)  
+  ![Nearest Defender vs Pass Speed](~/ndd_vs_pass_speed.png)  
 
 #### Implications  
 
